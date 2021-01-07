@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="utf-8">
+        <title> html 5</title>
+        <link rel="stylesheet" href="html5.css">
+        
+        <!-- [if lt ID 9]>
+        <script src="html5shiv.min.js"></script>
+        <![end if]-->
+    </head>
+    <body> 
+        <header class="main"><h1>Html 5 Corse</h1></header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+        <main> Welcom to my page <span>Gamal Ahmed</span></main>
+        <div class="post">
+            <article>
+                <header>
+                    <h3>Artticle #1</h3>
+                    <p>Creat By Gamal Ahmed </p>
+                </header>
+                <section class="pargraph">
+                    <p>This Article Number #1</p>
+                   <span>gamal: </span><progress value="7" max="10"></progress>
+                    <br>
+                   <span>ahmed: </span><progress value="100" max="300"></progress>
+                </section>
+            </article>
+            <article>
+                <header>
+                    <h3>Artticle #2</h3>
+                    <p>Creat By Gamal Ahmed </p>
+                </header>
+                <section>
+                    <p>This Article Number #2</p>
+                    <p>
+                        <details>
+                            <summary> Refrence</summary>
+                            <ul>
+                                <li> Ref 1 </li>
+                                <li> Ref 2</li>
+                                <li> Ref 3 </li>
+                            </ul>
+                        </details>
+                    </p>
+                </section>
+            </article>
+            <article>
+                <header>
+                    <h3>Artticle #3</h3>
+                    <p>Creat By Gamal </p>
+                </header>
+                <section>
+                    <p>This cpde Describe the div Syntex</p>
+                    <code>
+                        &lt; div &gt; this normal div &lt; /div&gt;
+                    </code>
+                </section>
+           </article>
+            
+            <article>
+                <header>
+                    <h3>Artticle #3</h3>
+                    <p>Creat By Gamal </p>
+                </header>
+                <section>
+                    <p>This cpde Describe the div Syntex</p>
+                    <figure>
+                        <img src="images.jpg" alt="imges" title ="imegs">
+                        <img src="images.jpg" alt="imges" title ="imegs">
+                        <figcaption> This imegs <a href="">here </a> </figcaption>
+                    </figure>
+                </section>
+           </article>
+            
+            <article>
+                <header>
+                    <h3>Artticle #3</h3>
+                    <p>Creat By Gamal </p>
+                </header>
+                <section>
+                    <input type="date">
+                    <input type="submit">
+                </section>
+            </article>
+            
+        </div>
+        <aside>
+            <section >
+                <h3>Categories </h3>
+                <ul>
+                    <li>Intro</li>
+                    <li>Sematics</li>
+                    <li>Api</li>
+                    <li>New Attributes</li>
+                    <li>Mulimedia Elements</li>
+                </ul>
+            </section>
+        </aside>
+        
+        <aside>
+            <section class="meters">
+                <h3>Categories </h3>
+                <div>
+                    cpu:
+                    <meter 
+                           low=".25"
+                           optimum=".2"
+                           high=".75"
+                           value=".8"
+                           ></meter>
+                </div>
+            </section>
+            <section class="top-number">
+                <h3> Top Numbers</h3>
+                <ul>
+                    <li>gamal :80 Point</li>
+                    <li> ahmed :60 Point</li>
+                    <li> elsyed :50 Point</li>
+                    <li> <bdi>جمال</bdi> :50 Point</li>
+                </ul>
+            </section>
+            
+            <section class="pull">
+                <h3> whet is youer Browser</h3>
+                <form>
+                    <input list="browser" placeholder="Enter Your Browser ">
+                    <datalist id="browser">
+                        <option>Opera</option>
+                        <option>Google crome</option>
+                        <option>Gamal</option>
+                        <option>FireFox</option>
+                        <option>Internet Expoler</option>
+                    </datalist>
+                    <input type="submit" value="Choose">
+                </form>
+            </section>
+            
+            <section class="oninput">
+                <h3> Calculate your age in days</h3>
+                <form oninput="result.value = parseInt(age.value) * parseInt(days.value)+ ' Days' ">
+                    <input type="text" name="age" placeholder="Enter Your age"> 
+                    <input type="hidden" name="days" value="365">
+                    <output name="result"></output>
+                </form>
+            </section>
+            
+            <section>
+                <h3>Today's Audio</h3>
+                <audio controls>
+                    <source src="Rihanna - Diamonds(MP3_70K).mp3" type="audio/mpeg">
+                    Your Browser Does not Support audio Tecknology
+                </audio>
+            </section>
+            
+            <section>
+                <h3>Today's Audio</h3>
+                <video controls>
+                    <source src="Facebook 997276757385526(240p)_1.mp4" type="audio/mpeg">
+                    Your Browser Does not Support Video Tecknology 
+                </video>
+            </section>
+            
+        </aside>
+        
+        
+        
+        <div class="clearfix"></div>
+
+        <footer> CopyRight 2020 &copy; Gamal Ahmed </footer>
+        <script src="js.js"></script>
+    </body>
+</html>
